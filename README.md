@@ -12,7 +12,7 @@ docker build -t botreputacion .
 
 ## Editar el archivo vars.env
 
-Edita el archivo para configurar el Token del BOT generado por Botfather y los rangos/nombres de los níveles.
+Edita el archivo de variables de entorno para configurar el Token del BOT generado por Botfather y los rangos/nombres de los níveles.
 
 ```
 BOT_TOKEN=XXXXXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
