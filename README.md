@@ -2,7 +2,7 @@
 
 Bot para llevar un ránking de la reputación de los usuarios en un canal de Telegram y otras tonterias ...
 
-## General el Build
+## Generar el Build
 
 ```
 git clone https://github.com/Cebeerre/botreputacion.git
