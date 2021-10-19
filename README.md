@@ -5,10 +5,10 @@ Bot para llevar un ránking de la reputación de los usuarios en un canal de Tel
 ## General el Build
 
 ```
-git clone  
+git clone https://github.com/Cebeerre/botreputacion.git
+cd botreputacion
+docker build -t botreputacion .
 ```
-
-
 
 ## Editar el archivo vars.env
 
@@ -46,7 +46,7 @@ Recuerda que debes añadir el bot al grupo y hacerlo admin del mismo para que pu
 
 ## Resetear la base de datos de palabras y el top cotorras diariamente
 
-Añadir en el crontab del host un simple echo que vacíe los ficheros. Hay que cambiar el path en el host y el chat_id correspondiente del grupo:
+Añadir en el crontab del **host** un simple echo que vacíe los ficheros. Hay que cambiar el path en el **host** y el chat_id correspondiente del grupo:
 
 ```
 0 5 * * * echo -n > <path to data>/database_words-123456789.json
